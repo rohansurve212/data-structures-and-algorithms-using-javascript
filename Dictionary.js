@@ -1,7 +1,5 @@
 /** @format */
 
-const csvToJson = require('convert-csv-to-json')
-
 const Dictionary = function () {
   this.datastore = new Array()
 
