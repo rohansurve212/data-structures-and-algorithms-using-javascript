@@ -19,7 +19,7 @@ b.left = d
 b.right = e
 c.right = f
 
-// Implementing BinaryTrees_Includes problem using BFS
+// Implementing BinaryTrees_Includes problem using BFT
 // const BT_Includes_BFS = (root, target) => {
 //   if (root === null) return false
 //   if (root.val === target) return true
@@ -34,7 +34,7 @@ c.right = f
 //   return false
 // }
 
-// Implementing BinaryTrees_Includes problem using DFS and Stack
+// Implementing BinaryTrees_Includes problem using DFT and Stack
 // const BT_Includes_DFS = (root, target) => {
 //   if (root === null) return false
 //   if (root.val === target) return true
@@ -49,7 +49,7 @@ c.right = f
 //   return false
 // }
 
-// Implementing BinaryTrees_Includes problem using DFS and Recursion
+// Implementing BinaryTrees_Includes problem using DFT and Recursion
 const BT_Includes_DFS_Recursion = (root, target) => {
   if (root === null) return false
   if (root.val === target) return true
