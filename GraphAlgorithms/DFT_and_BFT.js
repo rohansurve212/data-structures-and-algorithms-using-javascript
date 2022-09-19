@@ -14,7 +14,7 @@ const depthFirstPrint = (graph, source) => {
   return result
 }
 
-//Implementation using BFT
+//Implementation using Recursion
 const depthFirstPrint_Recursion = (graph, source) => {
   if (source === null) return null
   const neighbors = []
@@ -24,7 +24,7 @@ const depthFirstPrint_Recursion = (graph, source) => {
   return [source, ...neighbors]
 }
 
-//Implementation using Recursion
+//Implementation using BFT
 const breadthFirstPrint = (graph, source) => {
   const queue = [source]
   const result = []
